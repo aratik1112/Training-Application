@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="Training Offering" max_length="40" name="x_25488_ta_training_offering" type="collection">
+        <element label="Comment" max_length="4000" name="comment" type="string"/>
+        <element label="Description" max_length="1000" name="description" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Training Expected Outcome" max_length="1000" name="training_expected_outcome" type="string"/>
+        <element label="Training Name" max_length="100" name="training_name" type="string"/>
+        <element label="Training Prerequisites" max_length="1000" name="training_prerequisites" type="string"/>
     </element>
 </database>
