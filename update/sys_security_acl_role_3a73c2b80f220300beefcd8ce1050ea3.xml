@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-11-18 02:20:42</sys_created_on>
+        <sys_id>3a73c2b80f220300beefcd8ce1050ea3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_25488_ta_training_offering.x_25488_ta.training_offering_user</sys_name>
+        <sys_package display_value="Training Application" source="x_25488_ta">febc31b40f220300beefcd8ce1050e16</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training Application">febc31b40f220300beefcd8ce1050e16</sys_scope>
+        <sys_security_acl display_value="x_25488_ta_training_offering">be73c2b80f220300beefcd8ce1050e93</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_3a73c2b80f220300beefcd8ce1050ea3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-11-18 02:20:42</sys_updated_on>
+        <sys_user_role display_value="x_25488_ta.training_offering_user" name="x_25488_ta.training_offering_user">62738ef40f220300beefcd8ce1050e0d</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>
