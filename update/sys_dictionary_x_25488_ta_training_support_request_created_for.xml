@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="training_name" table="x_25488_ta_training_offering">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="request_created_for" table="x_25488_ta_training_support">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -15,7 +15,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Training Name</column_label>
+        <column_label>Request created for</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -23,23 +23,23 @@
         <delete_roles/>
         <dependent/>
         <dependent_on_field/>
-        <display>true</display>
+        <display>false</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>training_name</element>
+        <element>request_created_for</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <internal_type display_value="String">string</internal_type>
+        <internal_type display_value="Reference">reference</internal_type>
         <mandatory>false</mandatory>
-        <max_length>100</max_length>
-        <name>x_25488_ta_training_offering</name>
+        <max_length>32</max_length>
+        <name>x_25488_ta_training_support</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference/>
+        <reference display_value="" name="x_25488_ta_training_offering">x_25488_ta_training_offering</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -51,16 +51,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-11-18 02:29:36</sys_created_on>
-        <sys_id>18a4ce780f220300beefcd8ce1050e3a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Training Name</sys_name>
+        <sys_created_on>2017-11-19 02:14:56</sys_created_on>
+        <sys_id>ca8b83850fe20300beefcd8ce1050e37</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Request created for</sys_name>
         <sys_package display_value="Training Application" source="x_25488_ta">febc31b40f220300beefcd8ce1050e16</sys_package>
         <sys_policy/>
         <sys_scope display_value="Training Application">febc31b40f220300beefcd8ce1050e16</sys_scope>
-        <sys_update_name>sys_dictionary_x_25488_ta_training_offering_training_name</sys_update_name>
+        <sys_update_name>sys_dictionary_x_25488_ta_training_support_request_created_for</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-11-19 02:03:51</sys_updated_on>
+        <sys_updated_on>2017-11-19 02:14:56</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

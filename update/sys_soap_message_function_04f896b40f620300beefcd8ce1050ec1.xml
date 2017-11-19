@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_soap_message_function">
+    <sys_soap_message_function action="INSERT_OR_UPDATE">
+        <authentication_type/>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <certificate/>
+        <enable_mutual_auth>false</enable_mutual_auth>
+        <envelope><![CDATA[<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:tran="http://www.developingit.com/transfer/">
+   <soap:Header/>
+   <soap:Body>
+      <tran:DownloadChunk>
+         <!--Optional:-->
+         <tran:FileName>${DownloadChunk.FileName}</tran:FileName>
+         <tran:Offset>${DownloadChunk.Offset}</tran:Offset>
+         <tran:BufferSize>${DownloadChunk.BufferSize}</tran:BufferSize>
+      </tran:DownloadChunk>
+   </soap:Body>
+</soap:Envelope>]]></envelope>
+        <function_name>MTOMSoap12.DownloadChunk</function_name>
+        <key_store/>
+        <key_store_alias/>
+        <key_store_password/>
+        <lock>false</lock>
+        <protocol_profile/>
+        <qualified_name>NCR [ MTOMSoap12.DownloadChunk ]</qualified_name>
+        <soap_action>http://www.developingit.com/transfer/DownloadChunk</soap_action>
+        <soap_endpoint>https://downloadcenter.ncr.com/mtom.asmx</soap_endpoint>
+        <soap_message display_value="NCR">b9a816b40f620300beefcd8ce1050e54</soap_message>
+        <strip_whitespace>false</strip_whitespace>
+        <sys_class_name>sys_soap_message_function</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-11-18 03:54:26</sys_created_on>
+        <sys_id>04f896b40f620300beefcd8ce1050ec1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MTOMSoap12.DownloadChunk</sys_name>
+        <sys_package display_value="Training Application" source="x_25488_ta">febc31b40f220300beefcd8ce1050e16</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training Application">febc31b40f220300beefcd8ce1050e16</sys_scope>
+        <sys_update_name>sys_soap_message_function_04f896b40f620300beefcd8ce1050ec1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-11-18 03:54:26</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server/>
+        <use_ws_security>false</use_ws_security>
+        <ws_security_type/>
+        <ws_security_username_profile/>
+        <ws_security_x509_profile/>
+    </sys_soap_message_function>
+</record_update>

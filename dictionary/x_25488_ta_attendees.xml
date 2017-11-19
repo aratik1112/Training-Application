@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Attendees" max_length="40" name="x_25488_ta_attendees" type="collection">
+        <element label="Attendee Name" max_length="40" name="attendee_name" type="string"/>
+        <element label="Attendee Photo" max_length="40" name="attendee_photo" type="user_image"/>
+        <element choice="1" label="Batch Number" max_length="40" name="batch_number" type="choice">
+            <choice/>
+        </element>
+        <element label="End Date" max_length="40" name="end_date" type="glide_date"/>
+        <element label="Fee Deposited" max_length="20" name="fee_deposited" type="currency"/>
+        <element label="Fee Due Date" max_length="40" name="fee_due_date" type="glide_date"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Attendee Id" max_length="40" name="number" type="string"/>
+        <element label="Remaining Fee" max_length="20" name="remaining_fee" type="currency"/>
+        <element label="Start Date" max_length="40" name="start_date" type="glide_date"/>
+        <element label="Training Opted" max_length="32" name="training_opted" reference="x_25488_ta_training_offering" type="reference"/>
+        <index name="index">
+            <element name="training_opted"/>
+        </index>
+    </element>
+</database>

@@ -3,9 +3,14 @@
     <element label="Training Offering" max_length="40" name="x_25488_ta_training_offering" type="collection">
         <element label="Comment" max_length="4000" name="comment" type="string"/>
         <element label="Description" max_length="1000" name="description" type="string"/>
-        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Training Id" max_length="40" name="number" type="string"/>
+        <element label="Trainer" max_length="32" name="trainer" reference="sys_user" type="reference"/>
         <element label="Training Expected Outcome" max_length="1000" name="training_expected_outcome" type="string"/>
-        <element label="Training Name" max_length="100" name="training_name" type="string"/>
+        <element label="Training Fee" max_length="20" name="training_fee" type="currency"/>
+        <element display="true" label="Training Name" max_length="100" name="training_name" type="string"/>
         <element label="Training Prerequisites" max_length="1000" name="training_prerequisites" type="string"/>
+        <index name="index">
+            <element name="trainer"/>
+        </index>
     </element>
 </database>

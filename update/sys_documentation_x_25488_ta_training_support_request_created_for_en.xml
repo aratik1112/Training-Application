@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="request_created_for" label="Request created for" language="en" table="x_25488_ta_training_support">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>request_created_for</element>
+            <help/>
+            <hint/>
+            <label>Request created for</label>
+            <language>en</language>
+            <name>x_25488_ta_training_support</name>
+            <plural>Request created for</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-19 02:14:56</sys_created_on>
+            <sys_id>80cbc7850fe20300beefcd8ce1050ea1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Request created for</sys_name>
+            <sys_package display_value="Training Application" source="x_25488_ta">febc31b40f220300beefcd8ce1050e16</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Training Application">febc31b40f220300beefcd8ce1050e16</sys_scope>
+            <sys_update_name>sys_documentation_x_25488_ta_training_support_request_created_for_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-19 02:14:56</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

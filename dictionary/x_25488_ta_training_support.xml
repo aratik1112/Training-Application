@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="Training Support" max_length="40" name="x_25488_ta_training_support" type="collection">
+        <element label="Requester" max_length="32" name="requester" reference="x_25488_ta_attendees" type="reference"/>
+        <element label="Request created for" max_length="32" name="request_created_for" reference="x_25488_ta_training_offering" type="reference"/>
+    </element>
+</database>
